@@ -64,9 +64,12 @@ web_include_css = ["/assets/cresco_portal_poc/css/portal.css"]
 # home_page = "login"
 
 # website user home page (by Role)
-# role_home_page = {
-# 	"Role": "home_page"
-# }
+# Sends Cresco Portal User logins straight to the Projects list instead of
+# Frappe's default post-login landing (which otherwise tries /desk first,
+# 403s since these are desk_access=0 Website Users, then falls back to /me).
+role_home_page = {
+	"Cresco Portal User": "projects",
+}
 
 # Website route rules
 # --------------------
