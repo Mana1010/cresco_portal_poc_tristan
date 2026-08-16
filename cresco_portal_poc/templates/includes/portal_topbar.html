@@ -1,0 +1,29 @@
+{#
+	Shared portal topbar. Per the user's decisions (Q15): only the Projects
+	count is real/live; the POC's other counters (KPIs, Roles, AI alerts,
+	inspections) and the "AI ON" toggle have no backing feature in v0.1.0, so
+	they're left out entirely rather than shown as fake placeholders.
+
+	Expects `project_count` (int) and `current_staff` (dict or None) in context.
+#}
+<header class="flex h-12 shrink-0 items-center justify-between border-b border-cresco-bdr bg-white px-4">
+	<div class="flex items-center gap-3 text-xs">
+		<span class="rounded bg-cresco-lightBg px-2 py-1 font-semibold tracking-wide text-cresco-text">STAFF</span>
+		<span class="text-cresco-muted">{{ project_count }} Projects</span>
+	</div>
+	<div class="flex items-center gap-3">
+		{% if current_staff %}
+		<div class="flex h-7 w-7 items-center justify-center rounded-full bg-cresco-navy text-[11px] font-semibold text-white">
+			{{ current_staff.initials }}
+		</div>
+		<div class="text-xs">
+			<span class="font-medium text-cresco-text">{{ current_staff.staff_name }}</span>
+			{% if current_staff.level %}
+			<span class="ml-1 text-cresco-accent">{{ current_staff.level }}</span>
+			{% endif %}
+		</div>
+		{% else %}
+		<span class="text-xs text-cresco-muted">{{ frappe.session.user }}</span>
+		{% endif %}
+	</div>
+</header>

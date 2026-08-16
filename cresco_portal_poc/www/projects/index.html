@@ -1,0 +1,22 @@
+{% extends "templates/base.html" %}
+{% block navbar %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+<div class="flex h-screen bg-cresco-bg font-sans text-cresco-text antialiased">
+	{% include "templates/includes/portal_sidebar.html" %}
+	<div class="flex flex-1 flex-col overflow-hidden">
+		{% include "templates/includes/portal_topbar.html" %}
+		<main class="flex-1 overflow-y-auto p-6">
+			<div id="projects-app"></div>
+		</main>
+	</div>
+</div>
+
+<script>
+	window.__PROJECTS__ = {{ projects_json }};
+</script>
+<script src="/assets/cresco_portal_poc/js/vendor/vue.global.prod.js"></script>
+<script src="/assets/cresco_portal_poc/js/portal_tokens.js"></script>
+<script src="/assets/cresco_portal_poc/js/projects_list.js"></script>
+{% endblock %}

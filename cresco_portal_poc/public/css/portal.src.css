@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small shared component classes used across all 3 portal pages. */
+@layer components {
+	.status-dot {
+		@apply inline-block h-[5px] w-[5px] rounded-full;
+	}
+	.nav-link {
+		@apply block rounded px-3 py-1.5 text-sm text-slate-300 hover:bg-white/5 hover:text-white;
+	}
+	.nav-link-active {
+		@apply block rounded bg-cresco-blue/90 px-3 py-1.5 text-sm font-medium text-white;
+	}
+	.nav-link-disabled {
+		@apply block cursor-not-allowed rounded px-3 py-1.5 text-sm text-slate-500;
+	}
+	.nav-section-label {
+		@apply px-3 pt-4 pb-1 text-[10px] font-semibold tracking-wide text-slate-500;
+	}
+}

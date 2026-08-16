@@ -29,8 +29,12 @@ app_license = "mit"
 # app_include_js = "/assets/cresco_portal_poc/js/cresco_portal_poc.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/cresco_portal_poc/css/cresco_portal_poc.css"
-# web_include_js = "/assets/cresco_portal_poc/js/cresco_portal_poc.js"
+web_include_css = ["/assets/cresco_portal_poc/css/portal.css"]
+# NOTE: Vue + portal_tokens.js are deliberately NOT included here. Frappe's
+# base.html injects web_include_js scripts *after* the {% block content %}
+# body, so a page's own mount script (which also lives in content) would run
+# before Vue was defined. Each portal page includes them explicitly, in
+# order, right before its own mount script instead.
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "cresco_portal_poc/public/scss/website"
@@ -63,6 +67,18 @@ app_license = "mit"
 # role_home_page = {
 # 	"Role": "home_page"
 # }
+
+# Website route rules
+# --------------------
+# /projects/<project_id> is a dynamic detail route mapped to a single
+# www/projects/detail.py + detail.html pair. /risk-register keeps its
+# friendly hyphenated URL while the underlying file is risk_register.py/.html
+# (Python can't import a hyphenated module name).
+
+website_route_rules = [
+	{"from_route": "/projects/<project_id>", "to_route": "projects/detail"},
+	{"from_route": "/risk-register", "to_route": "risk_register"},
+]
 
 # Generators
 # ----------

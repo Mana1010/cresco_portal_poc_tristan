@@ -1,0 +1,64 @@
+{#
+	Shared portal sidebar. Only Projects and Risk Register are functional in
+	v0.1.0 (see requirements/planning/v0.1.0-implementation-plan.md §8) — every
+	other section from the POC is rendered disabled/greyed for visual fidelity,
+	per the user's decision (Q14).
+
+	Usage: {% include "templates/includes/portal_sidebar.html" %}
+	Expects an `active_page` context var: "projects" | "risk-register" | none.
+#}
+<aside class="flex h-screen w-56 shrink-0 flex-col overflow-y-auto bg-cresco-navy px-3 py-4">
+	<div class="mb-4 px-2">
+		<div class="text-sm font-bold tracking-wide text-white">CRESCO</div>
+		<div class="text-[10px] tracking-widest text-cresco-accent">AUSTRALIA</div>
+	</div>
+
+	<div class="nav-section-label">Delivery</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">Dashboard</span>
+		<span class="nav-link-disabled">Dashboard Tiers</span>
+		<a href="/projects" class="{{ 'nav-link-active' if active_page == 'projects' else 'nav-link' }}">Projects</a>
+		<span class="nav-link-disabled">New Proposal</span>
+		<span class="nav-link-disabled">Approvals</span>
+		<span class="nav-link-disabled">KPI Analytics</span>
+		<span class="nav-link-disabled">Anti-Gaming Pairs</span>
+	</nav>
+
+	<div class="nav-section-label">AI Layer</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">AI Inbox</span>
+		<span class="nav-link-disabled">AI Alerts</span>
+		<span class="nav-link-disabled">AI Manifest</span>
+		<span class="nav-link-disabled">AI Governance</span>
+		<span class="nav-link-disabled">AI Audit</span>
+	</nav>
+
+	<div class="nav-section-label">Inspections</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">Part A · Booking</span>
+		<span class="nav-link-disabled">Part B · Execution</span>
+	</nav>
+
+	<div class="nav-section-label">Programme</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">Phases &amp; Envelope</span>
+		<a href="/risk-register" class="{{ 'nav-link-active' if active_page == 'risk-register' else 'nav-link' }}">Risk Register</a>
+	</nav>
+
+	<div class="nav-section-label">Operations</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">Process Flow</span>
+		<span class="nav-link-disabled">Org Chart</span>
+		<span class="nav-link-disabled">Scorecards</span>
+		<span class="nav-link-disabled">Staff Workflow</span>
+		<span class="nav-link-disabled">Issue Register</span>
+		<span class="nav-link-disabled">Write-Offs</span>
+		<span class="nav-link-disabled">Time Recording</span>
+		<span class="nav-link-disabled">Governance</span>
+	</nav>
+
+	<div class="nav-section-label">Client</div>
+	<nav class="space-y-0.5">
+		<span class="nav-link-disabled">Client View</span>
+	</nav>
+</aside>

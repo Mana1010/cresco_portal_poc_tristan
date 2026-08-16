@@ -1,0 +1,25 @@
+{
+  "name": "cresco_portal_poc",
+  "version": "1.0.0",
+  "description": "Cresco Portal Core POC (v0.1.0)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i cresco_portal_poc/public/css/portal.src.css -o cresco_portal_poc/public/css/portal.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mana1010/cresco_portal_poc_tristan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mana1010/cresco_portal_poc_tristan/issues"
+  },
+  "homepage": "https://github.com/Mana1010/cresco_portal_poc_tristan#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
