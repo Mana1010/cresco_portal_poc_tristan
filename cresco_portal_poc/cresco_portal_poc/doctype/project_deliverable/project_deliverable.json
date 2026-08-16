@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-08-16 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "deliverable",
+  "fee",
+  "status",
+  "qa"
+ ],
+ "fields": [
+  {
+   "fieldname": "deliverable",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Deliverable",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fee"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "01 Ready to Commence\n02 WIP\n03 L1 Check\n04 L2 Check\n05 L3 Check\n06 Rework (Internal)\n07 Rework Approved\n08 Deliverable Approved\n09 Awaiting Invoice\n10 Packaged\n11 Released — Awaiting Payment\n12 Client Review\n13 Awaiting Client Info\n14 Inspection Booked\n15 Inspection In Progress\n16 Inspection Complete\n17 Certificate Issued\n18 Variation Identified\n19 Variation Submitted\n20 Variation Accepted\n21 Variation WIP\n22 Variation Approved\n23 Variation Invoice\n24 Prelim Conversion\n25 Rework (Client-Identified)"
+  },
+  {
+   "description": "Placeholder for the future QA Chain feature. Not used in v0.1.0.",
+   "fieldname": "qa",
+   "fieldtype": "Small Text",
+   "label": "QA"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-08-16 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Cresco Portal POC",
+ "name": "Project Deliverable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

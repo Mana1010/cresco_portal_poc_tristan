@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:project_code",
+ "creation": "2026-08-16 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_code",
+  "project_name",
+  "client",
+  "column_break_1",
+  "project_type",
+  "tier",
+  "status",
+  "fee",
+  "section_break_details",
+  "project_owner",
+  "lead",
+  "column_break_2",
+  "tier_factor",
+  "volume_factor",
+  "complexity_score",
+  "doc_path",
+  "payment",
+  "project_date",
+  "section_break_deliverables",
+  "deliverables",
+  "section_break_documents",
+  "document_register",
+  "section_break_transmittals",
+  "transmittals"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "STR-RESI\nSTR-COMM\nCIVIL\nARCH\nMECH\nPMNGT\nPCSUR\nGRSU\nFABD\nPLNG"
+  },
+  {
+   "description": "Computed from Tier Factor × Volume Factor and Fee, whichever is more severe. Not directly editable.",
+   "fieldname": "tier",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Tier",
+   "options": "Green\nBlue\nAmber\nRed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "01 Ready to Commence\n02 WIP\n03 L1 Check\n04 L2 Check\n05 L3 Check\n06 Rework (Internal)\n07 Rework Approved\n08 Deliverable Approved\n09 Awaiting Invoice\n10 Packaged\n11 Released — Awaiting Payment\n12 Client Review\n13 Awaiting Client Info\n14 Inspection Booked\n15 Inspection In Progress\n16 Inspection Complete\n17 Certificate Issued\n18 Variation Identified\n19 Variation Submitted\n20 Variation Accepted\n21 Variation WIP\n22 Variation Approved\n23 Variation Invoice\n24 Prelim Conversion\n25 Rework (Client-Identified)"
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fee"
+  },
+  {
+   "fieldname": "section_break_details",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "project_owner",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Owner",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "lead",
+   "fieldtype": "Link",
+   "label": "Lead",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tier_factor",
+   "fieldtype": "Int",
+   "label": "Tier Factor (T)"
+  },
+  {
+   "fieldname": "volume_factor",
+   "fieldtype": "Int",
+   "label": "Volume Factor (V)"
+  },
+  {
+   "fieldname": "complexity_score",
+   "fieldtype": "Int",
+   "label": "Complexity Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "doc_path",
+   "fieldtype": "Select",
+   "label": "Doc Path",
+   "options": "1\n2\n3\n4"
+  },
+  {
+   "description": "Placeholder value for v0.1.0 — to be replaced by a summary of a linked Payment doctype in a future version.",
+   "fieldname": "payment",
+   "fieldtype": "Select",
+   "label": "Payment",
+   "options": "Paid\nOutstanding"
+  },
+  {
+   "fieldname": "project_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_deliverables",
+   "fieldtype": "Section Break",
+   "label": "Deliverables"
+  },
+  {
+   "fieldname": "deliverables",
+   "fieldtype": "Table",
+   "label": "Deliverables",
+   "options": "Project Deliverable"
+  },
+  {
+   "fieldname": "section_break_documents",
+   "fieldtype": "Section Break",
+   "label": "Document Register"
+  },
+  {
+   "fieldname": "document_register",
+   "fieldtype": "Table",
+   "label": "Document Register",
+   "options": "Project Document Register"
+  },
+  {
+   "fieldname": "section_break_transmittals",
+   "fieldtype": "Section Break",
+   "label": "Transmittals"
+  },
+  {
+   "fieldname": "transmittals",
+   "fieldtype": "Table",
+   "label": "Transmittals",
+   "options": "Project Transmittal"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-16 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Cresco Portal POC",
+ "name": "Project",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Cresco Portal User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

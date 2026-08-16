@@ -1,0 +1,3885 @@
+{
+  "clients": [
+    "J. Smith",
+    "Greenfield Developments",
+    "Metro Constructions",
+    "BIAX / Bunnings",
+    "Riverside Holdings",
+    "M. Thompson",
+    "MBC-Ag",
+    "AusPack Industries",
+    "Darling Downs Grammar",
+    "Heritage Council QLD",
+    "QLD Steel Fab",
+    "LandCorp AU",
+    "K. Nguyen",
+    "Retail Group AU",
+    "Horizon Homes",
+    "ColdChain Logistics",
+    "National Trust QLD",
+    "Renewables AU",
+    "Wagga City Council",
+    "Murray Irrigation",
+    "Toowoomba RC",
+    "SunCoast Builders",
+    "Pacific Pines Dev",
+    "Lockyer Valley RC",
+    "Southern Downs RC"
+  ],
+  "staff": [
+    {
+      "staff_name": "Shane Lutze",
+      "position": "Director",
+      "level": "L5",
+      "reports_to": null
+    },
+    {
+      "staff_name": "EA (TBH)",
+      "position": "Executive Administrator",
+      "level": "L4",
+      "reports_to": "Shane Lutze"
+    },
+    {
+      "staff_name": "Shannon Oke",
+      "position": "Business Manager (Cost)",
+      "level": "L4",
+      "reports_to": "Shane Lutze"
+    },
+    {
+      "staff_name": "Madi Platt",
+      "position": "S&M Coordinator",
+      "level": "L2",
+      "reports_to": "Shannon Oke"
+    },
+    {
+      "staff_name": "Regine Estrella",
+      "position": "Estimating Coord",
+      "level": "L2",
+      "reports_to": "Shannon Oke"
+    },
+    {
+      "staff_name": "Paul Dyason",
+      "position": "D&S Coordinator",
+      "level": "L2",
+      "reports_to": "Shannon Oke"
+    },
+    {
+      "staff_name": "Cathleen Rodriguez",
+      "position": "Tendering Coord",
+      "level": "L2",
+      "reports_to": "Shannon Oke"
+    },
+    {
+      "staff_name": "Nick Munro",
+      "position": "Operations Manager (Time)",
+      "level": "L4",
+      "reports_to": "Shane Lutze"
+    },
+    {
+      "staff_name": "Glenn Frewin",
+      "position": "Head of Resi & Mech",
+      "level": "L3",
+      "reports_to": "Nick Munro"
+    },
+    {
+      "staff_name": "John Saren",
+      "position": "Resi Tech Lead",
+      "level": "L2",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Robert Roy Bat-og",
+      "position": "Mech Tech Lead",
+      "level": "L2",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Iowane Kulasoro",
+      "position": "Grad Eng + Inspection Coord",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Connor Hurst",
+      "position": "Graduate Engineer",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Adrian Fajanilan",
+      "position": "Production Engineer",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Angela Cariaga",
+      "position": "Production Engineer",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "John Manalo",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Jerick Guevarra",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Anthony Azucena",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Glenn Frewin"
+    },
+    {
+      "staff_name": "Vacant",
+      "position": "Head of Comm & Civil",
+      "level": "L3",
+      "reports_to": "Nick Munro"
+    },
+    {
+      "staff_name": "Rizkhan Manaois",
+      "position": "Comm Tech Lead",
+      "level": "L2",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Ares Concepcion",
+      "position": "Civil Tech Lead",
+      "level": "L2",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Glyziel Tumaclas",
+      "position": "Production Designer",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Joseph Pinos",
+      "position": "Production Designer",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Jesse Dohl",
+      "position": "Undergraduate Engineer",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Elvenson Phori",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Emeliano Factor",
+      "position": "Production Engineer",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Rumel Mendiola",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Franchesca Felipe",
+      "position": "Production Designer",
+      "level": "L1",
+      "reports_to": "Vacant"
+    },
+    {
+      "staff_name": "Robyn Foley",
+      "position": "Head of Arch & Planning",
+      "level": "L3",
+      "reports_to": "Nick Munro"
+    },
+    {
+      "staff_name": "Dion Argus",
+      "position": "Production Drafter",
+      "level": "L1",
+      "reports_to": "Robyn Foley"
+    },
+    {
+      "staff_name": "Chris Hughes",
+      "position": "Head of Project Mgmt",
+      "level": "L3",
+      "reports_to": "Nick Munro"
+    },
+    {
+      "staff_name": "Vince Chaffey",
+      "position": "Engineering Manager (Quality)",
+      "level": "L4",
+      "reports_to": "Shane Lutze"
+    },
+    {
+      "staff_name": "Isaac Mannion",
+      "position": "G&I Manager (Scale)",
+      "level": "L4",
+      "reports_to": "Shane Lutze"
+    }
+  ],
+  "projects": [
+    {
+      "project_code": "CRE-2026-001",
+      "project_name": "Smith Residence — Structural Assessment",
+      "client": "J. Smith",
+      "project_type": "STR-RESI",
+      "status": "08 Deliverable Approved",
+      "fee": 3200,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-01-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 2667,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 533,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-001-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-001-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-002",
+      "project_name": "Greenfield Duplex — Slab & Footing",
+      "client": "Greenfield Developments",
+      "project_type": "STR-RESI",
+      "status": "02 WIP",
+      "fee": 8500,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 2,
+      "project_date": "2026-02-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 7083,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 1417,
+          "status": "02 WIP"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-002-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-002-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-003",
+      "project_name": "Highrise Tower — Lateral Stability",
+      "client": "Metro Constructions",
+      "project_type": "STR-COMM",
+      "status": "04 L2 Check",
+      "fee": 62000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 4,
+      "volume_factor": 3,
+      "doc_path": 1,
+      "project_date": "2025-11-10",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 39021,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 15175,
+          "status": "04 L2 Check"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 7804,
+          "status": "05 L3 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-003-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-003-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-004",
+      "project_name": "BIAX — Bunnings Toowoomba Racking",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "11 Released — Awaiting Payment",
+      "fee": 4200,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-01-08",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 2643,
+          "status": "10 Packaged"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 1028,
+          "status": "11 Released — Awaiting Payment"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 529,
+          "status": "12 Client Review"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-004-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-004-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-005",
+      "project_name": "Riverside Estate — Civil Works",
+      "client": "Riverside Holdings",
+      "project_type": "CIVIL",
+      "status": "03 L1 Check",
+      "fee": 28000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 3,
+      "volume_factor": 3,
+      "doc_path": 4,
+      "project_date": "2026-01-22",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 23038,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 4962,
+          "status": "03 L1 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-005-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-005-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-006",
+      "project_name": "Heritage Cottage — Architectural Plans",
+      "client": "M. Thompson",
+      "project_type": "ARCH",
+      "status": "08 Deliverable Approved",
+      "fee": 12000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-12-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Concept Plans",
+          "fee": 3111,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Development Application Set",
+          "fee": 4000,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Construction Documentation",
+          "fee": 4889,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Client Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Planning",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Budget",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-006-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-006-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-007",
+      "project_name": "Grain Silo Upgrade — MBC-Ag",
+      "client": "MBC-Ag",
+      "project_type": "GRSU",
+      "status": "05 L3 Check",
+      "fee": 22000,
+      "project_owner": "Vince Chaffey",
+      "lead": "John Saren",
+      "tier_factor": 3,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-01-10",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Design Package",
+          "fee": 13000,
+          "status": "04 L2 Check"
+        },
+        {
+          "deliverable": "Foundation Design",
+          "fee": 7000,
+          "status": "05 L3 Check"
+        },
+        {
+          "deliverable": "Inspection Letter",
+          "fee": 2000,
+          "status": "06 Rework (Internal)"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Structural As-Built",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Capacity Reqs",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-007-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-007-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-008",
+      "project_name": "Industrial HVAC — Mechanical Design",
+      "client": "AusPack Industries",
+      "project_type": "MECH",
+      "status": "06 Rework (Internal)",
+      "fee": 9500,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 3,
+      "volume_factor": 1,
+      "doc_path": 2,
+      "project_date": "2026-02-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Mechanical Drawings",
+          "fee": 7980,
+          "status": "06 Rework (Internal)"
+        },
+        {
+          "deliverable": "Mechanical Specification",
+          "fee": 1520,
+          "status": "06 Rework (Internal)"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Existing Mech Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Compliance",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-008-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-008-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-009",
+      "project_name": "School Hall — PM Services",
+      "client": "Darling Downs Grammar",
+      "project_type": "PMNGT",
+      "status": "02 WIP",
+      "fee": 35000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 3,
+      "doc_path": 3,
+      "project_date": "2026-01-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Project Management Plan",
+          "fee": 15000,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Programme & Risk Register",
+          "fee": 12500,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Monthly Status Report",
+          "fee": 7500,
+          "status": "03 L1 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Project Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Stakeholder Register",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Budget",
+          "status": "Pending",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Program Reqs",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-009-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-009-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-010",
+      "project_name": "Point Cloud — Heritage Building",
+      "client": "Heritage Council QLD",
+      "project_type": "PCSUR",
+      "status": "10 Packaged",
+      "fee": 6800,
+      "project_owner": "Chris Hughes",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-01-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Point Cloud Survey",
+          "fee": 5011,
+          "status": "09 Awaiting Invoice"
+        },
+        {
+          "deliverable": "Survey Report",
+          "fee": 1789,
+          "status": "10 Packaged"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Survey Request",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Access Confirmation",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-010-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-010-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-011",
+      "project_name": "Workshop Steel Detailing",
+      "client": "QLD Steel Fab",
+      "project_type": "FABD",
+      "status": "09 Awaiting Invoice",
+      "fee": 14000,
+      "project_owner": "Glenn Frewin",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-12-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Fabrication Drawings",
+          "fee": 9600,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Detailing Schedule",
+          "fee": 4400,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Connection Details",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Material Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Shop Dwg Standards",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-011-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-011-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-012",
+      "project_name": "Subdivision — Planning Approval",
+      "client": "LandCorp AU",
+      "project_type": "PLNG",
+      "status": "13 Awaiting Client Info",
+      "fee": 7200,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 1,
+      "volume_factor": 2,
+      "doc_path": 4,
+      "project_date": "2026-02-10",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Planning Strategy",
+          "fee": 3323,
+          "status": "12 Client Review"
+        },
+        {
+          "deliverable": "Statement of Environmental Effects",
+          "fee": 3877,
+          "status": "13 Awaiting Client Info"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Planning Scheme",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Environmental",
+          "status": "Pending",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Traffic Assessment",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-012-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-012-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-013",
+      "project_name": "BIAX — Bunnings Alexandria Mezzanine",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "12 Client Review",
+      "fee": 18000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 3,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-12-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 11329,
+          "status": "11 Released — Awaiting Payment"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 4406,
+          "status": "12 Client Review"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 2266,
+          "status": "13 Awaiting Client Info"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-013-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-013-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-014",
+      "project_name": "Residential Extension — 3-Storey",
+      "client": "K. Nguyen",
+      "project_type": "STR-RESI",
+      "status": "01 Ready to Commence",
+      "fee": 4800,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-03-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 4000,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 800,
+          "status": "01 Ready to Commence"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-014-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-014-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-015",
+      "project_name": "Commercial Fitout — Structural Cert",
+      "client": "Retail Group AU",
+      "project_type": "STR-COMM",
+      "status": "17 Certificate Issued",
+      "fee": 2800,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2025-11-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 1762,
+          "status": "16 Inspection Complete"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 685,
+          "status": "17 Certificate Issued"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 352,
+          "status": "18 Variation Identified"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-015-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-015-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-016",
+      "project_name": "DOG Stacker — MBC-Ag Commission",
+      "client": "MBC-Ag",
+      "project_type": "GRSU",
+      "status": "02 WIP",
+      "fee": 85000,
+      "project_owner": "Vince Chaffey",
+      "lead": "John Saren",
+      "tier_factor": 4,
+      "volume_factor": 4,
+      "doc_path": 1,
+      "project_date": "2025-10-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Design Package",
+          "fee": 50227,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Foundation Design",
+          "fee": 27045,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Inspection Letter",
+          "fee": 7727,
+          "status": "03 L1 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Structural As-Built",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Capacity Reqs",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-016-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-016-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-017",
+      "project_name": "Townhouse Complex — Slab Design",
+      "client": "Horizon Homes",
+      "project_type": "STR-RESI",
+      "status": "18 Variation Identified",
+      "fee": 16000,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 3,
+      "doc_path": 2,
+      "project_date": "2026-01-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 13333,
+          "status": "17 Certificate Issued"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 2667,
+          "status": "18 Variation Identified"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-017-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-017-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-018",
+      "project_name": "Civil Drainage — Subdivision Works",
+      "client": "LandCorp AU",
+      "project_type": "CIVIL",
+      "status": "22 Variation Approved",
+      "fee": 11000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-12-10",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 9051,
+          "status": "21 Variation WIP"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 1949,
+          "status": "22 Variation Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-018-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-018-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-019",
+      "project_name": "BIAX — Bunnings Dandenong Canopy",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "08 Deliverable Approved",
+      "fee": 9800,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-01-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 6168,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 2399,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 1234,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-019-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-019-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-020",
+      "project_name": "Warehouse Extension — Mechanical",
+      "client": "ColdChain Logistics",
+      "project_type": "MECH",
+      "status": "04 L2 Check",
+      "fee": 32000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 3,
+      "volume_factor": 3,
+      "doc_path": 1,
+      "project_date": "2026-02-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Mechanical Drawings",
+          "fee": 26880,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Mechanical Specification",
+          "fee": 5120,
+          "status": "04 L2 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Existing Mech Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Compliance",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-020-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-020-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-021",
+      "project_name": "Heritage Restoration — Arch Design",
+      "client": "National Trust QLD",
+      "project_type": "ARCH",
+      "status": "03 L1 Check",
+      "fee": 24000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 3,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-02-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Concept Plans",
+          "fee": 6222,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Development Application Set",
+          "fee": 8000,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Construction Documentation",
+          "fee": 9778,
+          "status": "04 L2 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Client Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Planning",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Budget",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-021-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-021-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-022",
+      "project_name": "Solar Farm — Civil Design",
+      "client": "Renewables AU",
+      "project_type": "CIVIL",
+      "status": "05 L3 Check",
+      "fee": 55000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 3,
+      "volume_factor": 4,
+      "doc_path": 1,
+      "project_date": "2025-11-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 45253,
+          "status": "04 L2 Check"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 9747,
+          "status": "05 L3 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-022-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-022-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-023",
+      "project_name": "Wagga Council — Bridge Assessment",
+      "client": "Wagga City Council",
+      "project_type": "STR-COMM",
+      "status": "07 Rework Approved",
+      "fee": 15000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 3,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-01-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 9441,
+          "status": "06 Rework (Internal)"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 3671,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 1888,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-023-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-023-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-024",
+      "project_name": "Murray Irrigation — Pump Station",
+      "client": "Murray Irrigation",
+      "project_type": "CIVIL",
+      "status": "25 Rework (Client-Identified)",
+      "fee": 9500,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-12-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 7816,
+          "status": "25 Rework (Client-Identified)"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 1684,
+          "status": "25 Rework (Client-Identified)"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-024-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-024-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-025",
+      "project_name": "Toowoomba RC — Footpath Design",
+      "client": "Toowoomba RC",
+      "project_type": "CIVIL",
+      "status": "08 Deliverable Approved",
+      "fee": 3800,
+      "project_owner": "Glenn Frewin",
+      "lead": "Ares Concepcion",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 3127,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 673,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-025-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-025-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-026",
+      "project_name": "SunCoast — Beachfront Apartments",
+      "client": "SunCoast Builders",
+      "project_type": "STR-RESI",
+      "status": "04 L2 Check",
+      "fee": 42000,
+      "project_owner": "Vince Chaffey",
+      "lead": "John Saren",
+      "tier_factor": 3,
+      "volume_factor": 3,
+      "doc_path": 1,
+      "project_date": "2026-01-28",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 35000,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 7000,
+          "status": "04 L2 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-026-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-026-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-027",
+      "project_name": "Pacific Pines — Estate Civil",
+      "client": "Pacific Pines Dev",
+      "project_type": "CIVIL",
+      "status": "02 WIP",
+      "fee": 19000,
+      "project_owner": "Glenn Frewin",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 3,
+      "doc_path": 2,
+      "project_date": "2026-02-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 15633,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 3367,
+          "status": "02 WIP"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-027-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-027-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-028",
+      "project_name": "Lockyer Valley — Community Centre",
+      "client": "Lockyer Valley RC",
+      "project_type": "ARCH",
+      "status": "11 Released — Awaiting Payment",
+      "fee": 8200,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2025-12-12",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Concept Plans",
+          "fee": 2126,
+          "status": "10 Packaged"
+        },
+        {
+          "deliverable": "Development Application Set",
+          "fee": 2733,
+          "status": "11 Released — Awaiting Payment"
+        },
+        {
+          "deliverable": "Construction Documentation",
+          "fee": 3341,
+          "status": "12 Client Review"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Client Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Planning",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Budget",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-028-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-028-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-029",
+      "project_name": "Southern Downs — Retaining Walls",
+      "client": "Southern Downs RC",
+      "project_type": "STR-COMM",
+      "status": "08 Deliverable Approved",
+      "fee": 5500,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 1,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-01-30",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 3462,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 1346,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 692,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-029-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-029-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-030",
+      "project_name": "BIAX — Bunnings Gepps Cross Bollards",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "08 Deliverable Approved",
+      "fee": 2200,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-08",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 1385,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 538,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 277,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-030-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-030-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-031",
+      "project_name": "Grain Storage — Bunker Design",
+      "client": "MBC-Ag",
+      "project_type": "GRSU",
+      "status": "03 L1 Check",
+      "fee": 18500,
+      "project_owner": "Vince Chaffey",
+      "lead": "John Saren",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-02-12",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Design Package",
+          "fee": 10932,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Foundation Design",
+          "fee": 5886,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Inspection Letter",
+          "fee": 1682,
+          "status": "04 L2 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Structural As-Built",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Capacity Reqs",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-031-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-031-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-032",
+      "project_name": "Commercial Warehouse — MECH Services",
+      "client": "ColdChain Logistics",
+      "project_type": "MECH",
+      "status": "06 Rework (Internal)",
+      "fee": 7200,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-18",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Mechanical Drawings",
+          "fee": 6048,
+          "status": "06 Rework (Internal)"
+        },
+        {
+          "deliverable": "Mechanical Specification",
+          "fee": 1152,
+          "status": "06 Rework (Internal)"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Existing Mech Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Compliance",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-032-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-032-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-033",
+      "project_name": "Duplex Foundation — Wind Region B",
+      "client": "Horizon Homes",
+      "project_type": "STR-RESI",
+      "status": "09 Awaiting Invoice",
+      "fee": 6100,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 1,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-01-18",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 5083,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 1017,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-033-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-033-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-034",
+      "project_name": "Point Cloud — Industrial Complex",
+      "client": "AusPack Industries",
+      "project_type": "PCSUR",
+      "status": "16 Inspection Complete",
+      "fee": 4500,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-22",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Point Cloud Survey",
+          "fee": 3316,
+          "status": "15 Inspection In Progress"
+        },
+        {
+          "deliverable": "Survey Report",
+          "fee": 1184,
+          "status": "16 Inspection Complete"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Survey Request",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Access Confirmation",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-034-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-034-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-035",
+      "project_name": "Steel Fabrication — Conveyor Support",
+      "client": "QLD Steel Fab",
+      "project_type": "FABD",
+      "status": "02 WIP",
+      "fee": 21000,
+      "project_owner": "Glenn Frewin",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 3,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-02-25",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Fabrication Drawings",
+          "fee": 14400,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Detailing Schedule",
+          "fee": 6600,
+          "status": "02 WIP"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Connection Details",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Material Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Shop Dwg Standards",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-035-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-035-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-036",
+      "project_name": "Planning — Rezoning Application",
+      "client": "Pacific Pines Dev",
+      "project_type": "PLNG",
+      "status": "02 WIP",
+      "fee": 9000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-03-01",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Planning Strategy",
+          "fee": 4154,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Statement of Environmental Effects",
+          "fee": 4846,
+          "status": "02 WIP"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Planning Scheme",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Environmental",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Traffic Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-036-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-036-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-037",
+      "project_name": "BIAX — Bunnings Rockdale Trolley Bay",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "11 Released — Awaiting Payment",
+      "fee": 1800,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-10",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 1133,
+          "status": "10 Packaged"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 441,
+          "status": "11 Released — Awaiting Payment"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 227,
+          "status": "12 Client Review"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-037-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-037-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-038",
+      "project_name": "Residential Pool — Retaining Wall",
+      "client": "J. Smith",
+      "project_type": "STR-RESI",
+      "status": "08 Deliverable Approved",
+      "fee": 2400,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-28",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 2000,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 400,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-038-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-038-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-039",
+      "project_name": "Commercial Canopy — Wind Assessment",
+      "client": "Retail Group AU",
+      "project_type": "STR-COMM",
+      "status": "03 L1 Check",
+      "fee": 5200,
+      "project_owner": "Glenn Frewin",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-03-02",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 3273,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 1273,
+          "status": "03 L1 Check"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 655,
+          "status": "04 L2 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-039-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-039-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-040",
+      "project_name": "PM Services — Heritage Precinct",
+      "client": "National Trust QLD",
+      "project_type": "PMNGT",
+      "status": "19 Variation Submitted",
+      "fee": 28000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 3,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2025-11-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Project Management Plan",
+          "fee": 12000,
+          "status": "18 Variation Identified"
+        },
+        {
+          "deliverable": "Programme & Risk Register",
+          "fee": 10000,
+          "status": "19 Variation Submitted"
+        },
+        {
+          "deliverable": "Monthly Status Report",
+          "fee": 6000,
+          "status": "20 Variation Accepted"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Project Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Stakeholder Register",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Budget",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Program Reqs",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-040-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-040-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-041",
+      "project_name": "Civil — Carpark Stormwater",
+      "client": "Toowoomba RC",
+      "project_type": "CIVIL",
+      "status": "02 WIP",
+      "fee": 6500,
+      "project_owner": "Glenn Frewin",
+      "lead": "Ares Concepcion",
+      "tier_factor": 1,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-03-03",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 5348,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 1152,
+          "status": "02 WIP"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-041-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-041-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-042",
+      "project_name": "Mechanical — School HVAC Upgrade",
+      "client": "Darling Downs Grammar",
+      "project_type": "MECH",
+      "status": "05 L3 Check",
+      "fee": 13500,
+      "project_owner": "Vince Chaffey",
+      "lead": "Rizkhan Manaois",
+      "tier_factor": 2,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-02-14",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Mechanical Drawings",
+          "fee": 11340,
+          "status": "04 L2 Check"
+        },
+        {
+          "deliverable": "Mechanical Specification",
+          "fee": 2160,
+          "status": "05 L3 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Existing Mech Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Compliance",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-042-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-042-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-043",
+      "project_name": "BIAX — Bunnings Cairns Racking",
+      "client": "BIAX / Bunnings",
+      "project_type": "STR-COMM",
+      "status": "08 Deliverable Approved",
+      "fee": 3900,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-02-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 2455,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 955,
+          "status": "08 Deliverable Approved"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 491,
+          "status": "09 Awaiting Invoice"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-043-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-043-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-044",
+      "project_name": "Residential — Granny Flat Slab",
+      "client": "K. Nguyen",
+      "project_type": "STR-RESI",
+      "status": "08 Deliverable Approved",
+      "fee": 2100,
+      "project_owner": "Glenn Frewin",
+      "lead": "John Saren",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-03-04",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 1750,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Engineer's Letter",
+          "fee": 350,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council Approvals",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-044-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-044-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-045",
+      "project_name": "Ground Survey — Solar Farm",
+      "client": "Renewables AU",
+      "project_type": "GRSU",
+      "status": "14 Inspection Booked",
+      "fee": 16000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 2,
+      "volume_factor": 3,
+      "doc_path": 1,
+      "project_date": "2026-02-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Design Package",
+          "fee": 9455,
+          "status": "13 Awaiting Client Info"
+        },
+        {
+          "deliverable": "Foundation Design",
+          "fee": 5091,
+          "status": "14 Inspection Booked"
+        },
+        {
+          "deliverable": "Inspection Letter",
+          "fee": 1455,
+          "status": "15 Inspection In Progress"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Equipment Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Structural As-Built",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Capacity Reqs",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Safety Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-045-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-045-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-046",
+      "project_name": "Architecture — Rural Homestead",
+      "client": "M. Thompson",
+      "project_type": "ARCH",
+      "status": "21 Variation WIP",
+      "fee": 11000,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 2,
+      "volume_factor": 1,
+      "doc_path": 2,
+      "project_date": "2025-12-15",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Concept Plans",
+          "fee": 2852,
+          "status": "20 Variation Accepted"
+        },
+        {
+          "deliverable": "Development Application Set",
+          "fee": 3667,
+          "status": "21 Variation WIP"
+        },
+        {
+          "deliverable": "Construction Documentation",
+          "fee": 4481,
+          "status": "22 Variation Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Client Brief",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Planning",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Existing Plans",
+          "status": "Pending",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Budget",
+          "status": "Pending",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-046-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-046-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-047",
+      "project_name": "Commercial — Multi-Level Carpark",
+      "client": "Metro Constructions",
+      "project_type": "STR-COMM",
+      "status": "02 WIP",
+      "fee": 95000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 4,
+      "volume_factor": 4,
+      "doc_path": 1,
+      "project_date": "2026-01-20",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Structural Plans",
+          "fee": 59790,
+          "status": "01 Ready to Commence"
+        },
+        {
+          "deliverable": "Connection Schedule",
+          "fee": 23252,
+          "status": "02 WIP"
+        },
+        {
+          "deliverable": "Structural Specification",
+          "fee": 11958,
+          "status": "03 L1 Check"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Architectural Plans",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Council DA",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Wind Classification",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        },
+        {
+          "document": "Existing Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-15"
+        },
+        {
+          "document": "Services Layout",
+          "status": "Submitted",
+          "document_date": "2026-01-16"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-047-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-047-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-048",
+      "project_name": "Wagga — Pedestrian Bridge Design",
+      "client": "Wagga City Council",
+      "project_type": "CIVIL",
+      "status": "20 Variation Accepted",
+      "fee": 18000,
+      "project_owner": "Vince Chaffey",
+      "lead": "Ares Concepcion",
+      "tier_factor": 3,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2025-11-25",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Civil Drawings",
+          "fee": 14810,
+          "status": "19 Variation Submitted"
+        },
+        {
+          "deliverable": "Civil Specification",
+          "fee": 3190,
+          "status": "20 Variation Accepted"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Geotech Report",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Council Requirements",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Stormwater Plan",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        },
+        {
+          "document": "Existing Services",
+          "status": "Submitted",
+          "document_date": "2026-01-14"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-048-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-048-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-049",
+      "project_name": "Fabrication — Staircase Detailing",
+      "client": "QLD Steel Fab",
+      "project_type": "FABD",
+      "status": "08 Deliverable Approved",
+      "fee": 3500,
+      "project_owner": "Glenn Frewin",
+      "lead": "Robert Roy Bat-og",
+      "tier_factor": 1,
+      "volume_factor": 1,
+      "doc_path": 1,
+      "project_date": "2026-03-05",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Fabrication Drawings",
+          "fee": 2400,
+          "status": "07 Rework Approved"
+        },
+        {
+          "deliverable": "Detailing Schedule",
+          "fee": 1100,
+          "status": "08 Deliverable Approved"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Structural Dwgs",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Connection Details",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Material Specs",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Shop Dwg Standards",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-049-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-049-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    },
+    {
+      "project_code": "CRE-2026-050",
+      "project_name": "Subdivision — Estate Planning",
+      "client": "Greenfield Developments",
+      "project_type": "PLNG",
+      "status": "24 Prelim Conversion",
+      "fee": 8400,
+      "project_owner": "Chris Hughes",
+      "lead": "Ares Concepcion",
+      "tier_factor": 1,
+      "volume_factor": 2,
+      "doc_path": 1,
+      "project_date": "2026-02-28",
+      "payment": null,
+      "deliverables": [
+        {
+          "deliverable": "Planning Strategy",
+          "fee": 3877,
+          "status": "23 Variation Invoice"
+        },
+        {
+          "deliverable": "Statement of Environmental Effects",
+          "fee": 4523,
+          "status": "24 Prelim Conversion"
+        }
+      ],
+      "document_register": [
+        {
+          "document": "Site Survey",
+          "status": "Submitted",
+          "document_date": "2026-01-10"
+        },
+        {
+          "document": "Planning Scheme",
+          "status": "Submitted",
+          "document_date": "2026-01-11"
+        },
+        {
+          "document": "Environmental",
+          "status": "Submitted",
+          "document_date": "2026-01-12"
+        },
+        {
+          "document": "Traffic Assessment",
+          "status": "Submitted",
+          "document_date": "2026-01-13"
+        }
+      ],
+      "transmittals": [
+        {
+          "transmittal_id": "CRE-2026-050-TX-001",
+          "purpose": "IFC",
+          "transmittal_date": "2026-02-15",
+          "status": "Issued"
+        },
+        {
+          "transmittal_id": "CRE-2026-050-TX-002",
+          "purpose": "Client Review",
+          "transmittal_date": "2026-02-28",
+          "status": "Issued"
+        }
+      ]
+    }
+  ],
+  "risk_register": [
+    {
+      "risk": "R1 Synergy API limits",
+      "likelihood": "Medium",
+      "impact": "High",
+      "mitigation": "Premium tier; Week-1 validation; adapter + caching"
+    },
+    {
+      "risk": "R2 Stripe PCI complexity",
+      "likelihood": "Low",
+      "impact": "High",
+      "mitigation": "Stripe Elements only; integration checklist"
+    },
+    {
+      "risk": "R3 Developer underperformance",
+      "likelihood": "Low",
+      "impact": "High",
+      "mitigation": "Week-4 checkpoint; Technical Lead; weekly cadence"
+    },
+    {
+      "risk": "R4 Card failure at scale (~5%)",
+      "likelihood": "High",
+      "impact": "Medium",
+      "mitigation": "Smart retries day 0/+3/+7/+14; named owner; bank fallback"
+    },
+    {
+      "risk": "R7 IT procurement delays",
+      "likelihood": "Medium",
+      "impact": "High",
+      "mitigation": "IT readiness gate; clock starts on confirmation"
+    },
+    {
+      "risk": "R8 LLM provider availability / pricing",
+      "likelihood": "Medium",
+      "impact": "Medium",
+      "mitigation": "Abstraction layer; secondary provider validated in hardening"
+    },
+    {
+      "risk": "R9 AI accuracy below threshold",
+      "likelihood": "Medium",
+      "impact": "Medium",
+      "mitigation": "Supervised learning; confidence gating; manual fallback"
+    },
+    {
+      "risk": "R10 Prompt injection",
+      "likelihood": "Medium",
+      "impact": "High",
+      "mitigation": "Input sanitisation; prompt hardening; output validation; rate limits"
+    },
+    {
+      "risk": "R11 Alert fatigue",
+      "likelihood": "High",
+      "impact": "Medium",
+      "mitigation": "Lifecycle model; batching; dedup; tuning cadence"
+    },
+    {
+      "risk": "R12 Cross-border data transfer (LLM)",
+      "likelihood": "Low",
+      "impact": "High",
+      "mitigation": "DPA review; regional residency preference; metadata-only audit log"
+    },
+    {
+      "risk": "R13 AI governance friction",
+      "likelihood": "Medium",
+      "impact": "Medium",
+      "mitigation": "Hierarchy boundary; retraction protocol; phased autonomy"
+    },
+    {
+      "risk": "R14 Cross-workstream integration",
+      "likelihood": "Medium",
+      "impact": "High",
+      "mitigation": "Technical Lead; joint integration tests at phase boundaries"
+    }
+  ]
+}

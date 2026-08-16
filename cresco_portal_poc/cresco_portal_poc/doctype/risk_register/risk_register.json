@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:risk",
+ "creation": "2026-08-16 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "risk",
+  "likelihood",
+  "impact",
+  "mitigation"
+ ],
+ "fields": [
+  {
+   "fieldname": "risk",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "likelihood",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Likelihood",
+   "options": "Low\nMedium\nHigh"
+  },
+  {
+   "fieldname": "impact",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Impact",
+   "options": "Low\nMedium\nHigh"
+  },
+  {
+   "fieldname": "mitigation",
+   "fieldtype": "Small Text",
+   "label": "Mitigation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-16 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Cresco Portal POC",
+ "name": "Risk Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Cresco Portal User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

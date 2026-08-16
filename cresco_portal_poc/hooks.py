@@ -1,6 +1,6 @@
 app_name = "cresco_portal_poc"
 app_title = "Cresco Portal POC"
-app_publisher = "MIT"
+app_publisher = "Tristan"
 app_description = "Cresco Portal Core POC (v0.1.0)"
 app_email = "tristan@servio.ph"
 app_license = "mit"
