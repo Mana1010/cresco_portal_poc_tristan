@@ -25,5 +25,14 @@
 		{% else %}
 		<span class="text-xs text-cresco-muted">{{ frappe.session.user }}</span>
 		{% endif %}
+		{# web_logout (not the plain JSON `logout` API method) renders a proper
+		   "Logged Out" HTML confirmation page — needed since this is a plain
+		   form submit, not a frappe.call()/fetch(). #}
+		<form method="POST" action="/api/method/web_logout">
+			<button
+				type="submit"
+				class="rounded border border-cresco-bdr px-2.5 py-1 text-xs font-medium text-cresco-muted hover:border-cresco-danger hover:text-cresco-danger"
+			>Logout</button>
+		</form>
 	</div>
 </header>
